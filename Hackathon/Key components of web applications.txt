@@ -1,0 +1,36 @@
+Key components of web applications
+----------------------------------
+1) Scope: Defines what will be tested and what is out of scope.
+
+2)Objectives: Specifies what the test aims to achieve such as finding bugs or verifying functionality 
+
+3)Test Strategy: Outlines the types of testing(functional, regression, performance)and methodologies to be used.
+
+4)Test Environment: Details the hardware software and network configurations needed for testing.
+
+5)Test Data: Defines the data required for testing including both positive and negative test cases.
+
+6)Test cases: Provide detailed steps for each test scenarios.
+
+7)Schedules: Outlines the time line for testing including the start and end dates for each testing phases.
+
+8)Resources: Lists the tools personal and other resources required for testing.
+
+9)Testing activities: Includes  functional testing(verifying functionality) usability testing(checking UI) interface testing(checking communication between components) compatibility testing(checking across browser and device)performance testing(checking speed and load)Security testing.
+
+10)Defect reporting and issues management :Specifies how defects will be reported and tracked.
+
+11) Testing metrics and reporting: outlines how test progress will be tracked and reported.
+
+12)Approvals and stack holders signoff: Ensures that all stacks holders are aware of the test plans  and agree with its scope and objectives.
+
+
+
+
+
+
+
+
+
+
+

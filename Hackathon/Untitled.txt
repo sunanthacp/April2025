@@ -1,0 +1,210 @@
+Q38. What is Polymorphism and encapsulation?
+
+Polymorphism :Executing methods in more than one form is known as polymorphism.
+Poly means many and morphism is forms .
+
+Encapsulation: Encapsulation is integrating data (variables) and code(methods) in to a single unit .In encapsulation class variables are hidden from other classes and it can be accessed only through the method of same class.
+
+
+Q39. What is method overloading and Method over riding?
+
+
+method overloading and Method over riding are two important concepts of polymorphism.
+
+method overloading: when there are multiple functions with same name and different parameters then the method is said to be method overloading.
+Method over riding  is a compile time  polymorphism and it is also known  as static binding or early binding.
+
+
+Method over riding : This method can be overridden by a subclass that is already defined by a super class . Method over riding is a runtime polymorphism it is also known as a dynamic binding or a late binding.
+
+Q40. Why string is Immutable?
+
+Strings are often used to store sensitive data like user name and password.as it Is immutable values cannot be changed once created. since string is immutable it is safe for multithreading.
+
+Q41. What is the difference between String and String buffer? 
+
+String: String is an immutable class once it is created its value cannot be changed. If you try to modify that will result in creation of new string object. this immutable character make string less effective.
+
+String buffer: String buffer class in java which is mutable in character and you can modify it without creating an object every time.
+
+Q42. What is the difference between array and array list?
+
+Array: size of array are fixe and once it is created its size cannot be changed.
+Arrays can hold only primitive data type.
+Arrays are multidimentional
+Arrays are static in size and not flexible as size is fixed
+
+Array list: Array list can grow dynamically. size of array list will vary as it is dynamic in nature
+ Array list can store objects
+Array list are single dimentional
+
+ Array list are flexible as it is dynamic in character
+
+Q43. What is the difference between hash map and Hash table?
+
+Hash map: Hash map is an implementation class of map interface
+1)Duplicate keys are not allowed and duplicate values are allowed
+2)It maintains random order 
+3)it is thread safe
+ 
+Hash table: hash table does not contain null values in both keys and values.
+2)it maintains ascending order
+3)It is not thread safe
+
+Q44. What is a vector in Java?
+
+In java vector is a dynamic array that can grow or shrink in size as needed. Its similar to array list but with a key difference.it is synchornised.
+
+Q45. What is set in java?
+
+Answer: set is one of child interface in java 
+It works on value basis
+It does not allow duplicates
+Insertion order not maintained
+
+Q46. What is an abstract class?
+
+1)A class which contains both abstract and non abstract methods (partial abstraction)
+2)use keyword abstract in a class.
+3)contains key word extends
+4)we can’t create an object in abstract class.
+
+
+Q47. What is an interface?
+Specifies behaviour of a class by providing an abstract type
+1)It contains only abstract method
+2)Contains keyword implements
+3)we cant create an object
+4)use keyword interface in class.
+
+Q48.  Why Java is Platform independent?
+
+Java is Platform independent because a java compiler code can run on all operating systems like (windows, Mac and linux) without any changes.
+
+
+Q49. What are access modifiers? Give me an example?
+In java access modifier are keywords that control the accessibility of classes, interface variables and methods
+There are four types of access modifier in java
+Public 
+Protected 
+Default
+Private
+
+Q50. What are java exceptions? Give me an example
+
+In java exception is an event which occurs during the execution of the program that disturbs the normal flow of the program
+
+Public class DivisionExample{
+
+Public static void main (String[] args){
+
+Int a=10;
+Int b=0;
+
+try{
+Int result= a/b;
+System.out.println(“Result:”+result):
+
+}catch (Arithmetic exception e){
+
+System.out.println(“Error:division by Zero);
+
+
+
+Q51. What is the difference between throws and throwable?
+
+“throws” keyword used to indicate the exception which is thrown by a method  and “throwable” is a superclass of all exception and errors in java.
+
+
+Q52. What is the difference between Error and exception?
+
+
+Error : An error is a very sever problem which cannot be handled by programmer both error and exception occurs in runtime .It includes logical error and syntax error and incorrect calculations.
+
+Exception: An Exception is an unexpected event which occurs during the execution of a program in runtime that disturb the normal flow of the program and it can be handled by a program by using try catch block in the code.
+
+
+Q53. What is the difference between Error, throwable and exception?
+
+Error : An error is a very sever problem which cannot be handled by programmer both error and exception occurs in runtime .It includes logical error and syntax error and incorrect calculations.
+
+Exception: An Exception is an unexpected event which occurs during the execution of a program in runtime that disturb the normal flow of the program and it can be handled by a program 
+Throwable: Throwable is a super class of all exceptions and errors in java.
+
+
+
+Q54. What are collection APIs, give me an example?
+A collection ApI refers to a set of programming interface that provide standardised method for managing and manipulating groups of data 
+
+Collection has three interfaces
+1)List
+2)Set
+3)Queue
+
+Q55. What is the difference between final and finally?
+
+Final: final is used t declare variables class and methods as unchangeable. final class cannot be inherited or overridden by a subclass.
+
+Finally: used in exception handling to define a block of code that will always execute regardless of exception is thrown or catch.
+
+
+
+Q56. Will java supports multiple inheritance?
+
+No java does not support multiple inheritance because it may trigger priority issues.It can be achieved through an interface.
+
+Q57.  What are the different types of interface? (Ans List, set, Queue)
+
+List :list is a child interface of collection,
+It maintains insertion order
+Duplicate values are allowed
+It works on index basis
+
+Set : Like list set is also a child interface of collections 
+ It maintain s  insertion order 
+It allows duplicates
+It works on value basis.
+
+Queue: In java queue is a data structure which follows FIFO(first in first out).This means first one added to the queue is the first on to be removed.
+
+
+Q59. What is boxing and unboxing in Java? Explain with an example?
+
+Boxing: converting primitive data type in a corresponding wrapper class object
+
+Unboxing: converting wrapper class in to primitive data type
+
+
+Q60. Explain for each loop?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

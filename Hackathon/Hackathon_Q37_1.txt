@@ -1,0 +1,8 @@
+
+Q39. What is method overloading and Method over riding?
+
+
+method overloading and Method over riding are two important concepts of polymorphism.
+
+method overloading: when there are multiple functions with same name and different parameters then the method is said to be method overloading.
+Method over riding  is a compile time  polymorphism and it is also known  as static binding or early binding.

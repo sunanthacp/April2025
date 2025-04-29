@@ -1,0 +1,5 @@
+
+
+Q37. What is JVM and explain me the Java memory allocation?
+
+JVM: Java virtual machine is a machine responsible for compiling and executing java code. It converts byte code to the machine language. JVM will execute a main method JVM will not execute a code if a main method is missing.

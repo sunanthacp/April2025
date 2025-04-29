@@ -1,0 +1,44 @@
+Understand the Scenario/Requirements
+
+1)Understand the scenario/requirement.
+
+Analyze the functionality, user stories, or requirements.
+
+Understand what needs to be tested (scope).
+
+2)Define the scope.
+In Scope: What will be tested.
+
+Out of Scope: What will not be tested (for clarity).
+
+3)Set Objectives
+Define the goal of testing (e.g., verify login functionality works with valid/invalid credentials).
+
+4)Choose the Test Strategy
+Functional, integration, regression, performance, etc.
+
+Manual vs. automation testing.
+
+5)List Test Deliverables
+Test cases, test data, bug reports, test summary report.
+
+6)Identify Resources & Roles
+Who will write tests, execute them, report bugs, etc.
+
+7)Define the Schedule
+Start/end dates for writing tests, executing them, retesting bugs, etc.
+
+8)Set Entry & Exit Criteria
+Entry: Conditions that must be met to start testing.
+
+Exit: Conditions that must be met to conclude testing.
+
+9)List Risks and Assumptions
+
+Potential blockers and what you're assuming during testing.
+
+10)Define tools
+Test management tools (e.g., Jira, TestRail, Selenium).
+
+
+
